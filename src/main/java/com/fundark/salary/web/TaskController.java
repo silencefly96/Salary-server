@@ -47,7 +47,7 @@ public class TaskController {
      * 查询任务列表
      * @return 任务列表
      */
-    @RequestMapping(value = "tasks/query",method = RequestMethod.GET)
+    @RequestMapping(value = "task/all",method = RequestMethod.GET)
     public ResponseEntity<JsonResult<List<Task>>> getTaskList(){
         JsonResult<List<Task>> r = new JsonResult<>();
         try {

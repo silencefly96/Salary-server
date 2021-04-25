@@ -9,7 +9,7 @@ public interface TaskService {
     //通过id查询
     Task getTaskById(Integer id);
 
-    //获取用户列表
+    //获取任务列表
     public List<Task> getTaskList();
 
     //增
